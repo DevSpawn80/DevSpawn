@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.code-output {
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.token-card {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.token-value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.language-selector {
+  width: 100%;
+  margin-bottom: 15px;
+} 
